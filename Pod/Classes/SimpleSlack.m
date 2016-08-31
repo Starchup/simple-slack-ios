@@ -28,7 +28,7 @@
 - (instancetype)initWithWebHook:(NSString*)webhook andContext:(NSString*)slackContext {
     self = [self initWithWebHook:webhook];
     if (self) {
-        context = context;
+        context = slackContext.copy;
     }
     return self;
 }
