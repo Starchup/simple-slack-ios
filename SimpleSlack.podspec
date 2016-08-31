@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.homepage         = "https://github.com/starchup/simple-slack-ios"
     s.license          = 'MIT'
     s.author           = { "Geoffroy Lesage" => "geoffroy@starchup.com" }
-    s.source           = { :git => "git@github.com:starchup/simple-slack-ios.git", :tag => s.version.to_s }
+    s.source           = { :git => "https://github.com/Starchup/simple-slack-ios.git", :tag => s.version.to_s }
 
     s.platform     = :ios, '8.0'
     s.requires_arc = true
