@@ -1,0 +1,11 @@
+project 'SimpleSlack.xcodeproj'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'SimpleSlack' do
+  pod "SimpleSlack", :path => "../"
+end
