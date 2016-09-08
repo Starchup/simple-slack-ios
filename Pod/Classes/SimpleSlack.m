@@ -22,6 +22,7 @@
         manager = [[AFHTTPSessionManager alloc] init];
         manager.requestSerializer = [AFJSONRequestSerializer serializer];
         manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+        url = webhook.copy;
     }
     return self;
 }

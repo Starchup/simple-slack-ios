@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
     s.name             = "SimpleSlack"
-    s.version          = "1.0.1"
+    s.version          = "1.0.2"
     s.summary          = "Starchup Simple Slack Logger"
     s.homepage         = "https://github.com/starchup/simple-slack-ios"
     s.license          = 'MIT'
